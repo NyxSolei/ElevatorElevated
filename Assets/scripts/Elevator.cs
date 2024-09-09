@@ -18,7 +18,7 @@ public class Elevator
         currentCapacity = 0;
         currentFloor = 0;
     }
-
+//Methods should always be CamelCase - RemovePeople(int amountOfPeople)
     public void removePeople(int amountOfPeople)
     {
         if(currentCapacity - amountOfPeople >= minCapacity)
